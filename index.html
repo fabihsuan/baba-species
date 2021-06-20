@@ -75,7 +75,13 @@
       <form action="/NewItem">
         <p>
           <label for="name">Enter a new Baba's name:</label>
-          <input type="text" placeholder="Tzu Hsuan" id="name" name="name" />
+          <input
+            type="text"
+            placeholder="Tzu Hsuan"
+            id="name"
+            name="name"
+            required
+          />
         </p>
         <p>
           <label for="gender">Gender:</label>
@@ -106,16 +112,17 @@
         </p>
         <p>
           <label for="s">Choose a size:</label>
-          <label for="s">S</label>
+
           <input type="radio" name="size" id="s" value="S" />
-          <label for="m">M</label>
+          <label for="s">S</label>
           <input type="radio" name="size" id="m" value="M" />
-          <label for="l">L</label>
+          <label for="m">M</label>
           <input type="radio" name="size" id="l" value="L" />
-          <label for="xl">XL</label>
+          <label for="l">L</label>
           <input type="radio" name="size" id="xl" value="XL" />
-          <label for="xll">XLL</label>
+          <label for="xl">XL</label>
           <input type="radio" name="size" id="xll" value="XLL" />
+          <label for="xll">XLL</label>
         </p>
 
         <p>
